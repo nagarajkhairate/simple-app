@@ -6,7 +6,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                 url: 'https://github.com/nagarajkhairate/simple-app.git'
             }
         }
